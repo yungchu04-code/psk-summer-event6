@@ -113,7 +113,7 @@
     <div id="game-canvas" style="width:100%; height:100%; position:relative;"></div>
 
     <div id="octopus-shooter" onclick="manualShoot()">
-        <img src="assets/octopus.png" style="width:50%" onerror="this.style.display='none';">
+        <img src="assets/octopus.PNG" style="width:50%" onerror="this.style.display='none';">
         <div id="shoot-zone" class="shoot-zone-label"></div>
     </div>
 
@@ -122,10 +122,10 @@
         <img src="assets/product-main.png" class="start-product-img" onerror="this.style.display='none';">
         <div class="start-targets-grid">
             <div class="start-target-item"><img src="assets/base.png"><span>妝前打底</span></div>
-            <div class="start-target-item"><img src="assets/redness.png"><span>泛紅脫屑</span></div>
-            <div class="start-target-item"><img src="assets/dull.png"><span>氣色不佳</span></div>
-            <div class="start-target-item"><img src="assets/dry.png"><span>乾燥粗糙</span></div>
-            <div class="start-target-item"><img src="assets/sun.png"><span>曬後修護</span></div>
+            <div class="start-target-item"><img src="assets/redness.PNG"><span>泛紅脫屑</span></div>
+            <div class="start-target-item"><img src="assets/dull.PNG"><span>氣色不佳</span></div>
+            <div class="start-target-item"><img src="assets/dry.PNG"><span>乾燥粗糙</span></div>
+            <div class="start-target-item"><img src="assets/sun.PNG"><span>曬後修護</span></div>
             <div class="start-target-item"><img src="assets/beauty.png"><span>美容護理</span></div>
         </div>
         <p style="font-weight: 700; color: #0277bd; margin-bottom: 2px; font-size: 18px;">活動期間：7/1 ~ 8/31</p>
@@ -171,12 +171,12 @@ window.onload = function() {
     const FOLDER = 'assets/';
     const PROBLEMS = [
         { name: '妝前打底', src: 'base.png', heal: true, msg: '提升妝感服貼度', color: '#03a9f4' },
-        { name: '泛紅脫屑', src: 'redness.png', heal: true, msg: '降低泛紅與不適', color: '#ff5722' },
-        { name: '氣色不佳', src: 'dull.png', heal: true, msg: '改善氣色暗沉', color: '#9c27b0' },
-        { name: '乾燥粗糙', src: 'dry.png', heal: true, msg: '修護屏障', color: '#009688' },
-        { name: '曬後修護', src: 'sun.png', heal: true, msg: '修復受損肌膚', color: '#01579b' },
+        { name: '泛紅脫屑', src: 'redness.PNG', heal: true, msg: '降低泛紅與不適', color: '#ff5722' },
+        { name: '氣色不佳', src: 'dull.PNG', heal: true, msg: '改善氣色暗沉', color: '#9c27b0' },
+        { name: '乾燥粗糙', src: 'dry.PNG', heal: true, msg: '修護屏障', color: '#009688' },
+        { name: '曬後修護', src: 'sun.PNG', heal: true, msg: '修復受損肌膚', color: '#01579b' },
         { name: '美容護理', src: 'beauty.png', heal: true, msg: '加強保濕', color: '#e91e63' },
-        { name: '完美氣色', src: 'normal.png', heal: false, msg: '完美肌膚無須修復', color: '#d32f2f' }
+        { name: '完美氣色', src: 'normal.PNG', heal: false, msg: '完美肌膚無須修復', color: '#d32f2f' }
     ];
 
     const sounds = { bgm: new Audio(FOLDER + 'bgm.mp3') };
